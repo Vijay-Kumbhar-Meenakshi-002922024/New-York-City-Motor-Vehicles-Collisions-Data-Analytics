@@ -36,3 +36,7 @@ Below tools have been utilized for the various segments involving Data Profiling
 <img src="Img/Tools.png" alt="Tools">
 </p>
 
+# Data Modeling
+
+This project utilizes ER/Studio Data Architect's potential for designing, illustrating, and overseeing data models and metadata within the database. ER/Studio has enabled the creation of conceptual, logical, and physical data models, facilitating the mapping of relationships and dependencies among them. The approach to data modeling has followed an iterative process involving design, reviews, feedback, and improvements, all aligned with the needs of the business and end-users.
+
