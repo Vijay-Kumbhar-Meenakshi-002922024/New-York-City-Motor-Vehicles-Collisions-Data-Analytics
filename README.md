@@ -63,33 +63,36 @@ The ETL process involved 2 layer of data landing, transformation and loading.
 	|               NYC_MV                |    STG_NYC_MV_COLLISION_VEHICLES   |
 	|               NYC_MV                |    STG_NYC_MV_COLLISION_PERSONS    |
 
+
+**Data Worflow for Staging using Talend**
+
 <p align="center">  
   <br>
 	<a href="#">
-        <img src="stg_collision_bigquery_run_time.png"> 
+        <img src="Img/stg_collision_bigquery_run_time.PNG"> 
   </a>		
     <br>
-	Talend Staging Data Workflow - Collision using Bigquery
+	Collision Data using Bigquery
 </p>
 <br>
 
 <p align="center">  
   <br>
 	<a href="#">
-        <img src="stg_collision_bigquery_run_time.png"> 
+        <img src="Img/stg_person_run_time_data.PNG"> 
   </a>		
     <br>
-	Talend Staging Data Workflow - Person data
+	Person Data
 </p>
 <br>
 
 <p align="center">  
   <br>
 	<a href="#">
-        <img src="stg_collision_bigquery_run_time.png"> 
+        <img src="Img/stg_vechile_run_time_data.PNG"> 
   </a>		
     <br>
-	Talend Staging Data Workflow - Vechile data
+	Vechile Data
 </p>
 <br>
 
