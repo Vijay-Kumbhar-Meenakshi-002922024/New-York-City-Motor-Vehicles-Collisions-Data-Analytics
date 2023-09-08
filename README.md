@@ -40,3 +40,28 @@ Below tools have been utilized for the various segments involving Data Profiling
 
 This project utilizes ER/Studio Data Architect's potential for designing, illustrating, and overseeing data models and metadata within the database. ER/Studio has enabled the creation of conceptual, logical, and physical data models, facilitating the mapping of relationships and dependencies among them. The approach to data modeling has followed an iterative process involving design, reviews, feedback, and improvements, all aligned with the needs of the business and end-users.
 
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Img/DimModel.jpg"> 
+  </a>		
+    <br>
+	Dimensional Data Model - New York City Motor Vehicles Collisions
+</p>
+<br>
+
+## Data Integration / ETL Pipeline
+
+In this project, data is analysed, profiled, transformed and loaded into Microsoft SQL server by Talend and Alteryx. Data is collected from BigQuery and flat files (csv/tsv) and is moved to landing zones (Stage) in SQL Server.
+
+The ETL process involved 2 layer of data landing, transformation and loading.
+- **Landing or Staging Data Layer**: The data is extracted form source and staged into the SQL Server database. Here the main focus is to land the data from source with minimal transformation (as-is data load). Also, ETL Audit fields such as DI_PID, DI_Create_Date etc. were added to identify newly loaded or updated records by using audit columns.
+
+	|              Schema                      |             Table  	   |
+	|:----------------------------------------:|:-----------------------------:|
+	|               NYC_MV                |    STG_NYC_MV_COLLISIONS_BIGQUERY  |
+	|               NYC_MV                |    STG_NYC_MV_COLLISION_VEHICLES   |
+	|               NYC_MV                |    STG_NYC_MV_COLLISION_PERSONS    |
+
+
+	
