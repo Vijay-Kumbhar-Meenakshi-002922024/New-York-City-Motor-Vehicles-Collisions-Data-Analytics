@@ -137,4 +137,49 @@ The ETL process involved 2 layer of data landing, transformation and loading.
 	|               NYC_MV                 |    Dim_VEHICLE_DAMAGE  |	
 <br>
 
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Img/stg_orch.PNG">
+  </a>		
+    <br>
+	Staging Data Workflows Orchestration (DI Control Jobs)
+</p>
+<br>
+
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Img/Dim_orch.PNG">
+  </a>		
+    <br>
+	Dimensional Data Workflows Orchestration (DI Control Jobs)
+</p>
+<br>
+
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Img/fct_orch.PNG">
+  </a>		
+    <br>
+	Fact Data Workflows Orchestration (DI Control Jobs)
+</p>
+<br>
+
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Img/orch.PNG">
+  </a>		
+    <br>
+	Orchestration (DI Control Jobs) workflow of New York Motor Vehicle Collisions
+</p>
+<br>
+
+## BI Reporting
+
+BI reporting—preparing, analyzing, and portraying business metrics is fundamental to every business. The goal of BI reporting is to provide data insights to support decision making. This project leverages the potential of Tableau to derive key business insights by identifying key measurements such as Total Collisions by Geography and Time, Total Vehilces involved in Collisions, Fatalities KPIs The BI reports and dashboards developed as part of this project serves the purpose of identifying the accidents patterns and top contributing factors in those collisions. Some of the snapshots of the dashboards are attached below:
+
+
 	
