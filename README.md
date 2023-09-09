@@ -181,5 +181,35 @@ The ETL process involved 2 layer of data landing, transformation and loading.
 
 BI reporting—preparing, analyzing, and portraying business metrics is fundamental to every business. The goal of BI reporting is to provide data insights to support decision making. This project leverages the potential of Tableau to derive key business insights by identifying key measurements such as Total Collisions by Geography and Time, Total Vehilces involved in Collisions, Fatalities KPIs The BI reports and dashboards developed as part of this project serves the purpose of identifying the accidents patterns and top contributing factors in those collisions. Some of the snapshots of the dashboards are attached below:
 
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Img/collision_metrics.PNG">
+  </a>		
+    <br>
+	New York Motor Vehicle Collisions Metrics Information
+</p>
+<br>
+
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Img/Collision_analysis.PNG">
+  </a>		
+    <br>
+	New York Motor Vehicle Collisions analysis based Borough over years
+</p>
+<br>
+
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Img/collision_death_analysis.PNG">
+  </a>		
+    <br>
+	New York Motor Vehicle Fatality data analysis
+</p>
+<br>
+
 
 	
